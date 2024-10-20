@@ -33,7 +33,7 @@ Test the model on test set
 Measure the accuracy of the model and other metrics for evaluation
 
 ## Details of files given
-- Lead_Scoring_python_file_Bhavini.ipynb : The python file showing coding and data analysis
-- SUBJECTIVE_QUESTIONS_Answers_Lead_Scoring_Case_Study_Bhavini.pdf : Some subjective questions answered
-- Lead_Scoring_Case_Study_ppt_Bhavini.pdf : Final Presentation
-- Summary_Lead_Scoring_Case_Study_Bhavini.pdf : Summary on what's done in the entire py file
+- Lead_Scoring_python_file_Ayesha.ipynb : The python file showing coding and data analysis
+- SUBJECTIVE_QUESTIONS_Answers_Lead_Scoring_Case_Study_Ayesha.pdf : Some subjective questions answered
+- Lead_Scoring_Case_Study_ppt_Ayesha.pdf : Final Presentation
+- Summary_Lead_Scoring_Case_Study_Ayesha.pdf : Summary on what's done in the entire py file
