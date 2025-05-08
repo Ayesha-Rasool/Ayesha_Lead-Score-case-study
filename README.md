@@ -1,39 +1,206 @@
-# LEADSCORE
-**Objective:**
-X Education is an online education company targeting industry professionals. They face challenges with their lead conversion process, with only around 30% of leads converting into customers. To improve this, they aim to identify "Hot Leads" with the highest conversion potential. This involves developing a logistic regression model to assign a lead score between 0 and 100 to each lead, enabling the company to focus their sales efforts more effectively.
+# Supply Chain Analysis - Capstone Project
 
-**Context:**
-X Education attracts leads through various channels, such as website visits, form submissions, and referrals. Once acquired, these leads are contacted by the sales team through calls and emails. However, most leads do not convert, highlighting the need for a systematic approach to identify the most promising leads.
+The supply chain dataset comprises 24 columns and 100+ rows, containing information on various aspects of 
+the supply chain, including product details, pricing, availability, sales, manufacturing, shipping, and costs. It is 
+designed for analyzing revenue generation, manufacturing expenses, and transportation costs to optimize supply chain 
+operations.
 
-**Challenges:**
-1. **Low Conversion Rate:** The company's current lead conversion rate is approximately 30%, which they want to improve.
-2. **Lead Prioritization:** They need to identify leads with the highest likelihood of conversion, enabling the sales team to prioritize their efforts.
-3. **Future Adaptability:** The model should be adaptable to future changes and challenges in the lead generation and conversion process.
+# Problem Statement
 
-**Solution:**
-To address these challenges, we will build a logistic regression model that assigns lead scores based on the probability of conversion. Higher scores will indicate "Hot Leads" with a greater likelihood of converting, while lower scores will represent "Cold Leads" less likely to convert. This model will help X Education optimize their lead conversion process, potentially increasing their conversion rate.
+The supply chain dataset presents a comprehensive set of information related to product sales, 
+manufacturing, and logistics. The challenge is to extract meaningful insights and actionable recommendations from the data to 
+optimize supply chain operations and improve profitability.
 
-Additionally, we will address other specific problems and requirements provided by the company, ensuring that the logistic regression model can accommodate these needs in the future. These details will be integrated into our final presentation to provide comprehensive recommendations.
+## 🛠 Tools Used
 
-In summary, our goal is to develop a predictive lead scoring model that empowers X Education to focus their sales efforts on the most promising leads, ultimately improving their lead conversion rate and overall business efficiency.
+Tools used: Python (library: Seaborn, Matplotlib, Pandas, and Numpy)
 
-## Steps Followed
-Import data
-Clean and prepare the acquired data for further analysis
-Exploratory data analysis for figuring out most helpful attributes for conversion
-Dummy variable creation
-Test – Train Split
-Scaling features
-Prepare the data for model building
-Build a logistic regression model
-Assign a lead score for each leads
-Test the model on train set
-Evaluate model by different measures and metrics
-Test the model on test set
-Measure the accuracy of the model and other metrics for evaluation
+MySQL
 
-## Details of files given
-- Lead_Scoring_python_file_Ayesha.ipynb : The python file showing coding and data analysis
-- SUBJECTIVE_QUESTIONS_Answers_Lead_Scoring_Case_Study_Ayesha.pdf : Some subjective questions answered
-- Lead_Scoring_Case_Study_ppt_Ayesha.pdf : Final Presentation
-- Summary_Lead_Scoring_Case_Study_Ayesha.pdf : Summary on what's done in the entire py file
+Excel
+
+Power BI
+
+
+
+
+## Documentation
+
+## Python Analysis:- 
+
+### Table of Contents:
+
+1️⃣ Load Dataset
+
+2️⃣ Import Libraries
+
+3️⃣ Exploratory Data Analysis
+
+4️⃣ Checking Null Values and Cleaning Data
+
+5️⃣ Visualization :
+
+### Sales Analysis:
+
+1️⃣ Analyze the number of products sold and revenue generated to understand sales performance over time.
+
+2️⃣ Identify customer demographics to determine which groups are purchasing the most products.
+
+3️⃣ Track availability and stock levels to ensure the right products are in stock when customers are ready to buy.
+
+### Operational Analysis:
+
+1️⃣ Analyze lead times, order quantities, and production volumes to optimize inventory management and reduce stockouts.
+
+2️⃣ Track manufacturing lead times and costs to identify areas for improvement and cost savings.
+
+3️⃣ Monitor inspection results and defect rates to identify quality issues and improve manufacturing processes.
+
+### Shipping Analysis:
+
+1️⃣ Analyze costs, transportation modes, and routes to optimize logistics and reduce shipping costs.
+
+2️⃣ Monitor shipping times, shipping carriers, and modes of transportation to ensure timely delivery to customers.
+
+3️⃣ Track shipping costs associated with shipping carriers and revenue generated to identify areas for cost savings.
+
+### Libraries Used for the Analysis:
+
+Data Manipulation: NumPy, Pandas
+
+Data Visualization: Seaborn, Matplotlib
+
+Mysql Analysis:-
+----------------
+
+I used MySQL to analyze supply chain data and answer specific questions.
+
+📊 Total Revenue by Product Type:
+Calculate the total revenue generated by each product type. This can help identify the most profitable products.
+
+🚚 Shipping Costs by Carrier:
+Calculate the average shipping costs for each shipping carrier to evaluate which carrier is the most cost-effective.
+
+⏳ Lead Times by Supplier:
+Calculate average lead times for each supplier to assess their reliability in delivering products on time.
+
+🌍 Total Products Sold by Location:
+Determine the total number of products sold in each location to understand regional demand.
+
+🔍 Defect Rates by Inspection Results:
+Calculate defect rates for different inspection results to assess product quality.
+
+💰 Ranking Products by Profitability:
+Write a query to rank products based on profitability, where profitability is calculated as (revenue generated - manufacturing costs - shipping costs).
+
+📦 Supplier Performance Analysis:
+Calculate the average lead time for each supplier and identify suppliers with lead times higher than the overall average.
+
+🏆 Top 5 Shipping Carriers by Cost Efficiency:
+Determine the top 5 shipping carriers with the lowest average shipping costs per product shipped.
+
+Excel Analysis:-
+----------------
+![Excel](https://github.com/Harpreetk01/sample/assets/122088124/2a9ae76d-b8b3-45d8-918c-f4a3500159f3)
+
+Excel Analysis Summary for Supply Chain Capstone Project
+
+Create an Excel dashboard for your supply chain capstone project and visualize key insights from your supply chain dataset.
+
+📊 Visualizing Key Insights
+
+From the overall analysis, I have discovered some key insights:
+
+💰 Skincare products are the most profitable, generating significant revenue. Haircare products come next in popularity, followed by cosmetics.
+
+🚚 Carrier C has the highest shipping costs on average, with carrier A as the second-costliest option. Carrier B, on the other hand, is the most affordable choice.
+
+🛳️ Among the four transportation modes (air, rail, road, and sea), air transportation is associated with higher shipping costs, while sea transportation offers a more economical solution.
+
+📈 The top locations for product sales are Kolkata and Delhi, closely followed by Mumbai and Chennai, each with a substantial number of products sold. In contrast, Bangalore reports the lowest number of products sold.
+
+❌ Among the three types of products, haircare exhibits the highest defect rate at 37%, followed by skincare and cosmetics.
+
+💼 The manufacturing cost of skincare products is higher than that of haircare and cosmetics.
+
+This Excel dashboard provides a concise overview of the supply chain dataset, making it easier to understand and make data-driven decisions.
+
+
+Power BI:-
+-----------
+
+![Power BI - Dashboard](https://github.com/Harpreetk01/sample/assets/122088124/80e7f912-4c2d-4e82-b00b-d41a832b1e7a)
+
+In Powe Bi, build charts, graphs, and KPIs to visualize the data and understand it more interactively, along with 
+that, build some slicers to make it more user-friendly to customize the charts and graphs.
+
+Build some cards to understand some key performance indicators, including:
+
+### Key Performance Indicators (KPIs):
+
+1️⃣ Total Revenue: 577,000
+
+2️⃣ Average Product Price: 49.46
+
+3️⃣ Total Products Sold: 46,000
+
+4️⃣ Manufacturing Cost: 47.27
+
+5️⃣ Total Available Products: 4,840
+
+6️⃣ Total Stock Value: 4,777
+
+### Charts and Graphs:
+
+1. Average Defect Rate, Manufacturing Lead Time, and Manufacturing Cost by Product
+
+2. Customer Demographics vs. Number of Products Sold by Product Type
+
+3. Total Revenue Generated by Product Type and Total Products Sold by Product Type
+
+4. Average Manufacturing Cost vs. Average Price by Product Type
+
+5. Transportation Modes vs. Routes with Average Cost
+
+6. Defect Rate vs. Inspection Rate by Product Type
+
+7. Transportation Modes and Shipping Carriers with Average Shipping Time
+
+### Interactive Slicers:
+
+Product Type
+
+Transportation Mode
+
+Shipping Carrier
+
+Routes
+
+Suppliers' Name
+## Insights
+1. The highest number of products sold among the three product categories is skincare, which accounts for 45% of the business. Haircare follows at 29%, and cosmetics contribute 25% to the revenue.
+
+2. Analyzing customer demographics versus the number of products sold by product type reveals that the female group purchases higher-quality skincare and cosmetic products, while the male group opts for products of roughly equal quality in terms of haircare and cosmetics. 
+
+An unknown group category purchases a higher quantity of all three product types. Skincare products are the most popular among all four product categories, indicating a high demand.
+
+3. Analyzing product availability and stock levels shows that the company maintains an equal quantity of inventory for haircare and skincare products, with slightly less stock for cosmetics.
+Skincare products exhibit higher availability and lower stock levels, enabling quick manufacturing and shipment. 
+
+In contrast, cosmetics and haircare have higher stock levels and lower availability, meaning the company faces challenges in promptly shipping these products due to longer manufacturing times.
+
+4. Skincare products have higher order quantities and longer lead times, often associated with higher production volumes. 
+
+
+Higher production volumes necessitate longer lead times to ensure adequate time for manufacturing products to meet customer demand.
+
+ Haircare products also exhibit longer lead times and higher production volumes, possibly due to the need for more specialized ingredients or manufacturing processes.
+
+5. All product categories show a higher defect rate.
+
+6. An analysis of revenue generated by shipping carriers indicates that shipping carrier B is costlier but generates higher revenue.
+
+7. According to the graph, the fastest and most efficient shipping option is Carrier B, and the most efficient transportation mode is road in all four transportation modes.
+## Links
+
+[Power Bi Dashbaord](https://app.powerbi.com/view?r=eyJrIjoiYzgzMTQ1YjItMmIwZC00MTBmLWJiOTUtYzZlNTFmNzYyMzA2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
